@@ -13,7 +13,7 @@ import (
 
 var (
 	script   = flag.String("script", "", "the script to run")
-	route    = flag.String("route", "", "the script to run")
+	route    = flag.String("route", "", "the route to watch")
 	webhook  = flag.String("slack", "", "the slack webhook url")
 	channel  = flag.String("channel", "", "slack channel")
 	username = flag.String("user", "", "slack user name")
